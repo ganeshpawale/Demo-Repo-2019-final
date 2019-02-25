@@ -49,7 +49,7 @@ public class TC_001 extends Test_Core{
 			flag_google_Search_btn=isElementPresent(By.xpath(object.getProperty("flag_google_Search_btn_rs")));
 		
 			flag_google_lucky_btn=isElementPresent(By.xpath(object.getProperty("flag_google_lucky_btn_rs")));
-			
+			//for demo line to add
 		
 			if(flag_Sign_in_btn){
 			
