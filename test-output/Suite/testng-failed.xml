@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Google_TestCase(failed)">
+    <classes>
+      <class name="DD_Test.TC_001">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="google_Launch" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- DD_Test.TC_001 -->
+    </classes>
+  </test> <!-- Google_TestCase(failed) -->
+</suite> <!-- Failed suite [Suite] -->

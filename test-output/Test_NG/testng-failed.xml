@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test_NG]">
+  <test name="Launched Google Apps Properly(failed)">
+    <classes>
+      <class name="DD_Test.TC_011">
+        <methods>
+          <include name="user_Login_Gmail"/>
+          <include name="isSkip"/>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- DD_Test.TC_011 -->
+    </classes>
+  </test> <!-- Launched Google Apps Properly(failed) -->
+</suite> <!-- Failed suite [Test_NG] -->
